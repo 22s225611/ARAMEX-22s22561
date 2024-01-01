@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Register">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/CBB"
+            android:padding="24dp">
+
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Register"
+                android:textAlignment="center"
+
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="140dp"
+                android:drawablePadding="8dp"
+                android:hint="enter user name"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:drawablePadding="9dp"
+                android:hint="enter your email"
+                android:padding="9dp" />
+
+            <EditText
+                android:id="@+id/PASSWORD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:drawablePadding="9dp"
+                android:hint="enter your password"
+                android:padding="9dp" />
+
+            <EditText
+                android:id="@+id/ConfirmedPW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:drawablePadding="9dp"
+                android:hint=" confirm password"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/BTNREGISTER"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="31dp"
+                android:text="Register"
+                android:backgroundTint="#E31405"
+                android:textSize="19sp" />
+
+
+
+            <Button
+                android:id="@+id/Backbutton"
+                android:layout_width="186dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="22dp"
+                android:text="Back"
+                android:backgroundTint="#E31405"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
